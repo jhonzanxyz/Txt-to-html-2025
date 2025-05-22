@@ -6,9 +6,9 @@ import time
 from telebot.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 OWNER = 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = os.getenv("API_ID", "29344139")
+API_HASH = os.getenv("API_HASH", "6972ba754ccab4894a193ac7b5150325")
+TOKEN = os.getenv("BOT_TOKEN", "7842780078:AAG-8EEvMIq9iofWEkTgIc_HdCQn2fq5j14")
 
 bot = telebot.TeleBot(TOKEN)
 
